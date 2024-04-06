@@ -2,15 +2,16 @@
   "name": "myreactapp",
   "private": true,
   "version": "0.0.0",
-  "homepage" : ".",
+  "homepage": "https://github.com/Feliveira123/Site-Cabaninha.git",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy" : "npm run build",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "prepreview": "npm run build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
