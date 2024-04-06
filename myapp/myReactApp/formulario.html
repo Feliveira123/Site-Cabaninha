@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="formStyle.css"> 
+    <title>Cadastro Cáritas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+    <div>
+    <h1 id="title">Cadastro Cáritas</h1><br>
+    <p id="description">Cadastro de assistidos no banco de dados do Cáritas.</p>
+    <form id="survey-form">
+
+      <label id="name-label">Nome:
+        <input placeholder="Digite seu nome..." required id="name" type="text" name="nome"></input>
+      </label><br>
+      
+      <label id="nascimento-label">Data de nascimento:
+        <input required id="date" type="date" name="nascimento"></input>
+      </label><br>
+
+      <label id="RG-label">RG:
+        <input placeholder="Digite seu RG..." required id="RG" type="text" name="RG"></input>
+      </label><br>
+
+      <label id="CPF-label">CPF:
+        <input placeholder="Digite seu CPF..." required id="CPF" type="text" name="CPF"></input>
+      </label><br>
+
+      <label id="endereço-label">Rua:
+        <input placeholder="Digite sua rua..." required id="endereço" type="text" name="rua"></input>
+      </label><br>
+
+      <label id="número-rua-label">Número:
+        <input placeholder="Digite o número da rua..." required id="número-rua" type="number" name="numero-rua"></input>
+      </label><br>
+      
+      <label id="complemento-label">Complemento (opcional):
+        <input placeholder="Digite o complemento..." id="complemento" type="text" name="complemento"></input>
+      </label><br>
+
+      <label id="bairro-label">Bairro:
+        <input placeholder="Digite seu bairro..." required id="bairro" type="text" name="bairro"></input>
+      </label><br>
+
+      <label id="telefone-label">Telefone:
+        <input placeholder="Digite seu telefone..." required id="telefone" type="text" name="telefone"></input>
+      </label><br>
+
+      <label id="recado-label">Telefone para recado (opcional):
+        <input placeholder="Digite o telefone de recado..." id="recado" type="text" name="telefone-recado"></input>
+      </label><br>
+
+      <label id="recado-nome-label">Nome do telefone de recados (opcional):
+        <input placeholder="Digite o nome do telefone de recados..." id="recado-nome" type="text" name="nome-recado"></input>
+      </label><br>
+
+      <label id="emprego-label">Emprego:
+        <input placeholder="Digite seu emprego..." required id="emprego" type="text" name="emprego"></input>
+      </label><br>
+
+      <label id="função-label">Função:
+        <input placeholder="Digite sua função..." id="função" type="text" name="função"></input>
+      </label><br>
+
+      <label id="tipo-renda-label">Tipo de renda:
+        <input placeholder="Digite o tipo de renda..." required id="tipo-de-renda" type="text" name="tipo-de-renda"></input>
+      </label><br>
+
+      <label id="salário-label">Salário:
+        <input placeholder="Digite seu salário..." required id="salário" type="text" name="salário"></input>
+      </label><br>
+
+      <label id="bolsa-família-label">Valor Bolsa-Família:
+        <input placeholder="Digite o valor..." id="bolsa-família" type="text" name="bolsá-família"></input>
+      </label><br>
+
+      <p>Estado civil:</p>
+
+      <select required id="dropdown" name="estado-civil">
+        <option>Estado Civil:</option>
+        <option>Solteiro(a)</option>
+        <option>Casado(a)</option>
+        <option>Viúva(a)</option>
+        <option>Divorciado</option>
+        <option>Separado(a)</option>
+      </select><br>
+
+      <h3>Informações da família</h3>
+      
+      <p>Possui algum famíliar com problema de saúde?</p><br>
+      
+
+      <label>Sim<input required class="radio-element" value="option1" name="option-button" type="radio"></input></label>
+      <label>Não<input required class="radio-element" value="option2" name="option-button" type="radio"></input></label><br>
+
+
+      <label id="problema-saúde-tipo-label">Se sim, qual?
+        <input placeholder="Digite o problema..." id="função-conjuge" type="text" name="função-cônjuge"></input>
+      </label><br>
+
+      <p>Recebe algum benefício?</p>
+
+      <label>Sim<input required  class="radio-element" value="option1" name="option-button" type="radio"></input></label>
+      <label>Não<input required class="radio-element" value="option2" name="option-button" type="radio"></input></label><br>
+      
+      <label id="benefício-tipo-label">Se sim, qual?:
+        <input placeholder="Digite o tipo de benefício..." id="benefício" type="text" name="tipo-benefício"></input>
+      </label><br>
+
+      <label id="valor-benefício-label">Qual o valor do benefício?:
+        <input placeholder="Digite o valor..." id="valor-benefício" type="text" name="valor-benefício"></input>
+      </label><br>
+      
+      
+
+    <button id="submit"><a href="formulario-conjuge.html">Próximo passo</a></button>
+
+    <footer>
+        Cabaninha Santo Antônio De Aquino, 2024.
+    </footer>
+    </form>
+  </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+

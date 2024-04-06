@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+
+    <link rel="stylesheet" href="formStyle.css">
+    <title>Cadastro Moradia</title>
+</head>
+<body>
+    <h1>Cadastro Cáritas</h1>
+    <p id="description">Cadastro da moradia</p>
+    <form id="survey-form">
+
+        <h3>Informações da moradia</h3>
+
+      <p>Qual a situação da moradia?</p><br>
+      
+      <textarea class="input-element" placeholder="Situação da moradia..." type="texarea" required> </textarea><br>
+
+      <p>Paga aluguel?</p><br>
+
+      <label>Sim<input required class="radio-element" value="option1" name="option-button" type="radio"></input></label>
+      <label>Não<input required class="radio-element" value="option1" name="option-button" type="radio"></input></label><br>
+
+      <label id="valor-aluguel-label">Se sim, qual o valor?
+        <input placeholder="Digite o valor..." id="valor-aluguel" type="text"></input>
+      </label><br>
+
+      <label id="número-moradores-label">Qual o número de moradores?
+        <input required placeholder="Digite o número de moradores..." id="nnúmero-moradores" type="number"></input>
+      </label><br>
+
+      <label id="energia-custo-label">Valor da conta de energia:
+        <input placeholder="Digite o custo..." id="custo-energia" type="text" required></input>
+      </label><br>
+
+      <label id="água-custo-label">Valor da conta de água:
+        <input placeholder="Digite o custo..." id="custo-água" type="text" required></input>
+      </label><br>
+
+      <label id="gás-custo-label">Valor do gás:
+        <input placeholder="Digite o custo..." id="custo-gás" type="text" required></input>
+      </label><br>
+
+      <label id="outro-custo-label">Outros custos:
+        <input placeholder="Digite o custo..." id="custo-energia" type="text"></input>
+      </label><br>
+
+      <h4>Observações:</h4>
+      
+      <textarea class="input-element" placeholder="Situação da moradia..." type="texarea"> </textarea><br>
+        
+
+
+          <button id="submit"><a href="formulario-familiares.html">Próximo Passo</a></button>
+        </form>
+</body>
+</html>

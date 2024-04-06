@@ -1,0 +1,126 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    color: #f5f6f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  form {
+    max-width: 500px;
+    padding: 20px;
+    border: none;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(133, 175, 214);
+    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    height: 100%;
+    width: 90%;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .input-element {
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #009E9E;
+}
+  label {
+    font-size: 18px
+  }
+  h1 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: rgb(133, 175, 214);
+    display: inline-block;
+    border-radius: 40px;
+  }
+  p {
+    margin-top: 0px;
+    color: white;
+    font-weight: bolder;
+    display: inline-block;
+    border-radius: 40px;
+    width: 100%;
+  }
+  #description {
+    color: rgb(133, 175, 214);
+  }
+  button {
+    width: 40%;
+    font-size:20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #f5f6f7;
+  }
+  button:hover {
+    background-color: #CCCCCC;
+  }
+  footer {
+    margin: 10px;
+  }
+
+  .radio-element {
+    display: inline;
+    width: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #dropdown {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+  }
+
+  #link {
+    margin-top: 10px;
+    display: flex;
+    margin-left: 10px;
+    color: rgb(133, 175, 214);
+  }
+  #dropdown2 {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+  .link2 {
+    margin-top: 10px;
+    display: flex;
+    margin-left: 10px;
+    color: rgb(133, 175, 214);
+  }
+  #cadastro-mais-um {
+    display: flex;
+    width: 55%;
+    display: inline;
+    margin-bottom: 20px;
+  }
+  a {
+    color: rgb(133, 175, 214);
+  }

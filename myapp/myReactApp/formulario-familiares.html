@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+
+    <link rel="stylesheet" href="formStyle.css">
+    <title>Cadastro Familiares</title>
+</head>
+<body>
+    <h1>Cadastro Cáritas</h1>
+    <p id="description">Cadastro de familiares dos assistidos do Cáritas</p>
+    
+    <form id="survey-form">
+
+        <label id="name-label">Nome do familiar cadastrado:
+          <input placeholder="Digite o nome..." required id="name" type="text"></input>
+        </label><br>
+
+        <label id="nascimento-label">Data de nascimento:
+          <input required id="date" type="date"></input>
+        </label><br>
+
+        <label id="RG-label">RG:
+          <input placeholder="Digite seu RG..." required id="RG" type="text"></input>
+        </label><br>
+
+        <label id="CPF-label">CPF:
+          <input placeholder="Digite seu CPF..." required id="CPF" type="text"></input>
+        </label><br>
+
+        <label id="sapato-label">Tamanho do sapato:
+            <input placeholder="Digite o tamanho..." required id="tam-sapato" type="text"></input>
+        </label><br>
+
+        <label id="calça-label">Tamanho da calça:
+            <input placeholder="Digite o tamanho..." required id="tam-calça" type="text"></input>
+        </label><br>
+
+        <label id="camiseta-label">Tamanho de camiseta:
+            <input placeholder="Digite o tamanho..." required id="tam-camiseta" type="text"></input>
+        </label><br>
+
+          <p>Sexo:</p>
+          
+
+          <select required id="dropdown2">
+            <option>Sexo:</option>
+            <option>feminino</option>
+            <option>Masculino</option>
+          </select><br>
+
+
+          <div>
+          <button id="submit"><a href="formulario-familiares.html">Cadastrar outro familiar.</button>
+          </div>
+
+          <button id="submit-final">Enviar</button>
+
+          <footer>Cabaninha Santo Antonio De Aquino, 2024</footer>
+        </form>
+</body>
+</html>
