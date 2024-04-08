@@ -2,7 +2,7 @@
   "name": "myreactapp",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/Feliveira123/Site-Cabaninha.git",
+  "homepage": "https://github.com/Feliveira123/Site-Cabaninha",
   "type": "module",
   "scripts": {
     "dev": "vite",
